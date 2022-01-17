@@ -4,7 +4,7 @@
 <h2>Overview</h2>
 
 
-<p>School boards are tasked with difficult jobs. They must make important decisions based on information presented to them. These decisions can vary from athletics, school closures, and budgets. Delivering the correct information to them is imperative. In this case, it could impact over a dozen schools and thousands of students. Currently, budget is top of mind for the PyCity School Board. Each school participates in standardized testing. These tests provide consistent questions for student’s as to be able to compare the districts performance more fairly. The information gathered has been analyzed to see how different variables can affect a student's performance. In conjunction with other data provided we will be able to see if students are excelling in their environments or struggling. Due to potential academic dishonesty at Thomas High School, grade 9 reading and math school will be omitted. These omitted values were replaced with NaNs in order to uphold the integrity of the testing system.  The analysis below will explain how the omission of the 9th grade scores from THS will have impacted the overall metrics. 
+<p>School boards are tasked with difficult jobs. They must make important decisions based on information presented to them. These decisions can vary from athletics to budgets and much more. Delivering the correct information is imperative. In the Pycity School District it could impact over a dozen schools and thousands of students. Currently, budget is top of mind for the PyCity School Board. Each school participates in standardized testing. These tests provide consistent questions for student’s as to be able to compare the districts performance more fairly. The information gathered is analyzed to see how different variables can affect a student's performance. In conjunction with other data provided we will be able to see if students are excelling in their environments or struggling. If potential academic dishonesty is proven the values must be omitted to uphold the integrity of the system. Thomas High School, in the Pycity School District, there has been proven academic dishonesty within the 9th grade. Reading and math scores have been omitted and replaced with NaNs. The analysis below will explain how the omission of the 9th grade scores from THS have impacted the data.
   
 <h2>Results and Analysis</h2>
 <h4>How the district summary was affected:</h4>
@@ -40,8 +40,12 @@
 
 <h2>Summary</h2>
   
-<p>Presented above are two sets of data. Before and after the omission of the 9th grade reading and math scores from Thomas High School. In order to better understand how much and in what way the data was affected we had to break down the data into layers. This will allow you to see where changes may have occurred within the different metrics. 
-The district summary and per student budget had no significant changes. Unfortunately, when you begin to look at the data on a school level, that is where you see the biggest changes. As we were able to see above, the individual school summary declined in both reading and math causing the overall percentage to decline drastically. Taking this into account, THS ranking for overall percentage in the district also dropped from 2nd to 8th. Although they are still ranked above the district schools, the different between 7th, and 8th is still substantial. 
+<p>Presented above are two sets of data. Before and after the omission of the 9th grade reading and math scores from Thomas High School. In order to better understand how much and in what way the data was affected we had to break down the data. This has allowed us to see the difference in reading and math scores individually and together. It will also as allow us to see what changes occurred before and after the omission of data. 
+  
+<p>The district summary and per student budget had no significant changes. Unfortunately, when you begin to look at the data on a school level, that is where you see the biggest changes. As we were able to see above, the individual school summary declined in both reading and math causing the overall percentage to decline drastically. Taking this into account, THS ranking for overall percentage in the district also dropped from 2nd to 8th. Although they are still ranked above the district schools, the different between 7th, and 8th is still substantial.
+  
+  <p> In conclusion, if a single data set is omitted the impact can vary. When combined with a larger dataset there is a minimal impact. However, on its own, as we’ve seen with Thomas High School the results were huge. Not only did scores decline drastically, but these numbers could ultimately impact potential school funding and potential charter status.  
+
 
 
 
